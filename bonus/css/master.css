@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  font-family: 'DotGothic16', sans-serif;
+  background-color: red;
+}
+
+h1{
+  font-size: 3.8em;
+  text-align: center;
+  padding-top: 80px;
+}
+
+p{
+  text-align: center;
+  font-weight: bold;
+}
+
+#introduction{
+  font-size: 1.8em;
+  padding-top: 180px;
+}
+
+#password{
+  font-size: 1.6em;
+  padding-top: 55px;
+  color: #006400;
+}

@@ -20,13 +20,14 @@ p{
   font-weight: bold;
 }
 
-#introduction{
+#welcome{
   font-size: 1.8em;
   padding-top: 180px;
+  color: #0000ff;
 }
 
 #password{
   font-size: 1.6em;
   padding-top: 55px;
-  color: #006400;
+  color: #ffeb3b;
 }

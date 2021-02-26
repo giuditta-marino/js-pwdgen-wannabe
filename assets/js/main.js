@@ -10,5 +10,12 @@ console.log(cognome);
 var colorePreferito = prompt("Qual è il tuo colore preferito?");
 console.log(colorePreferito);
 
+// CHIEDO DATA DI NASCITA E SALVO IN VARIABILE
+var dataDiNascita = prompt("Qual è la tua data di nascita? es. 010199");
+console.log(dataDiNascita);
+
+// STAMPO NOME NEL DOM NELL'ELEMENTO CON ID WELCOME
+document.getElementById('welcome').innerHTML= "Ciao " + nome + ", la tua password è:";
+
 // STAMPO PASSWORD NEL DOM NELL'ELEMENTO CON ID PASSWORD
-document.getElementById('password').innerHTML= nome + cognome + colorePreferito + "21";
+document.getElementById('password').innerHTML = nome + cognome + colorePreferito + dataDiNascita + "21";
